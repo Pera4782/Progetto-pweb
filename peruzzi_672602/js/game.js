@@ -176,7 +176,6 @@ class Game {
         data.append('initial_time', json_init_time)
         data.append('time_increment', json_time_increment)
         data.append('turn', json_turn)
-        data.append('moves',json_moves)
 
         try {
             let response = await fetch(PHP_REQUEST_URL + 'send_status', {
