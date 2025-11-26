@@ -74,7 +74,7 @@ session_destroy();
     </div>
 
     <button id="play_button">PLAY</button>
-    <button id="check_games_button">CHECK GAMES</button>
+    <button id="game_history_button">CHECK GAMES</button>
 </body>
 
 </html>

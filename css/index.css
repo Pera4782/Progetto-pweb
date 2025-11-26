@@ -210,7 +210,7 @@ h1{
 
 
 
-#check_games_button {
+#game_history_button {
     grid-area: d2;
     align-self: center;
     justify-self: left;
@@ -290,7 +290,7 @@ button {
 #sign_in:hover,
 #info_page:hover,
 #play_button:hover,
-#check_games_button:hover,
+#game_history_button:hover,
 #mode_container > button:hover,
 .login_box>div>button:hover,
 #menu>button:hover{

@@ -37,7 +37,7 @@ async function log_in(){
     data.append('username',username)
     data.append('password',password)
 
-    const response = await fetch('../php/check_game_requests.php?type=login',{
+    const response = await fetch('../php/game_history_requests.php?type=login',{
         method: 'POST',
         body: data
     })

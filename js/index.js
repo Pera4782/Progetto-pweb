@@ -5,8 +5,8 @@ document.addEventListener('DOMContentLoaded', () => {
 
 function init() {
     document.getElementById('play_button').addEventListener('click', play)
-    document.getElementById('check_games_button').addEventListener('click',() => {
-        window.location.href = 'html/check_games.php'
+    document.getElementById('game_history_button').addEventListener('click',() => {
+        window.location.href = 'html/game_history.php'
     })
 
     let login_btns = document.querySelectorAll('.login_btn')

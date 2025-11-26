@@ -12,11 +12,11 @@ session_destroy();
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="../js/check_games.js"></script>
+    <script src="../js/game_history.js"></script>
     <script src="../js/error_handling.js"></script>
     <script src="../js/msg.js"></script>
     <link rel="stylesheet" href="../css/menu.css">
-    <link rel="stylesheet" href="../css/check_games.css">
+    <link rel="stylesheet" href="../css/game_history.css">
 
     <link rel="icon" href="../images/pezzi/pawn_white.svg">
     <title>Chess</title>
